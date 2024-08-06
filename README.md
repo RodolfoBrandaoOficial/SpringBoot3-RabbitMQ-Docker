@@ -19,7 +19,7 @@ Este repositório contém dois projetos separados que integram Spring Boot 3 com
 - Docker
 - Docker Compose
 - Java 17
-- Maven
+- Gradle
 
 ## Configuração do Ambiente 🛠️
 
