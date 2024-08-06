@@ -79,8 +79,8 @@ cd backend-api-rabbit-mq
 Compile e execute o projeto:
 
 ```bash
-mvn clean install
-mvn spring-boot:run
+./gradlew clean build
+./gradlew bootRun
 ```
 Pagamentos Worker
 Navegue até o diretório do projeto backend-worker:
@@ -90,8 +90,8 @@ cd backend-worker
 Compile e execute o projeto:
 ```
 ```bash
-mvn clean install
-mvn spring-boot:run
+./gradlew clean build
+./gradlew bootRun
 ```
 
 <div align="center">
