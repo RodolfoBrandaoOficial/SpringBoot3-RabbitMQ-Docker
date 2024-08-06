@@ -4,6 +4,10 @@ Este repositório contém dois projetos separados que integram Spring Boot 3 com
 
 - Projeto 1: `backend-api-rabbit-mq`
 - Projeto 2: `backend-worker`
+- 
+<div align="center">
+<img src="https://github.com/RodolfoBrandaoOficial/SpringBoot3-RabbitMQ-Docker/blob/main/srcGitHub/exemploExchanges.png?raw=true" width="700px" />
+</div>
 
 ## Estrutura do Projeto 📂
 
@@ -48,6 +52,10 @@ Exchange: pagamento-response-erro-queue
 Routing Key: pagamento-response-erro-rout-key
 Queue para Solicitações de Pagamento:
 
+<div align="center">
+<img src="https://github.com/RodolfoBrandaoOficial/SpringBoot3-RabbitMQ-Docker/blob/main/srcGitHub/configWeb.png?raw=true" width="700px" />
+</div>
+
 Queue: pagamento-request-queue
 Tipo: classic
 Status: running
@@ -85,6 +93,13 @@ Compile e execute o projeto:
 mvn clean install
 mvn spring-boot:run
 ```
+
+<div align="center">
+<img src="https://github.com/RodolfoBrandaoOficial/SpringBoot3-RabbitMQ-Docker/blob/main/srcGitHub/explodaExecucao.png?raw=true" width="700px" />
+</div>
+
+
+
 Testando a Integração 🔄
 Envie uma solicitação de pagamento para a API do backend.
 O worker processará a mensagem e enviará a resposta para a fila apropriada (sucesso ou erro).
